@@ -78,9 +78,9 @@ public class IdlingTest {
 //@RunWith(AndroidJUnit4.class)
 //public class ExampleInstrumentedTest {
 //
-//    @Rule
-//    public ActivityScenarioRule<MainActivity> activityRule =
-//            new ActivityScenarioRule<>(MainActivity.class);
+//@Rule
+//public IntentsTestRule<MainActivity> activityRule =
+//        new IntentsTestRule<>(MainActivity.class);
 //
 //
 
@@ -112,7 +112,7 @@ public class IdlingTest {
 //    }
 
 //    @Test
-//    public void testSettingsIntent() {
+//    public void testSettingsIntent2() {
 //        try {
 //            ViewInteraction overflowMenuButton = onView(
 //                    allOf(withContentDescription("More options"),
